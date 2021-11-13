@@ -1,0 +1,43 @@
+.main-layout {
+    height: auto;    
+    margin: 20px;
+    width: auto;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-title {
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.main-title {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.form {
+    padding-bottom: 20px;
+}
+
+.flex1 {
+    flex: 1.5;
+}
+
+.flex3 {
+    flex: 2.5;
+}
+
+.main-table {
+    margin: 0 auto;
+}

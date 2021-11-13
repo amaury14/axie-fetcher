@@ -1,0 +1,41 @@
+.layout-details {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.column-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.image {
+    height: 250px;
+    width: 300px;
+}
+
+.loading {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.hp {
+    color: rgb(62, 228, 62);
+}
+
+.speed {
+    color: yellow;
+}
+
+.skill {
+    color: violet;
+}
+
+.morale {
+    color: red;
+}
