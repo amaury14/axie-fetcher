@@ -18,7 +18,7 @@ export function AxieForm() {
   };
 
   // Redux state handler
-  const id = useSelector((state) => state.id);
+  // const id = useSelector((state) => state.id);
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
