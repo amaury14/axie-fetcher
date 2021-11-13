@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./axie-form.css";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setId } from "../../../store/axie";
 
 export function AxieForm() {
