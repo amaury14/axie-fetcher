@@ -37,7 +37,24 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.menu {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.menu-button {
+  color: white;
+  padding: 30px;
+  text-decoration: auto;
+}
+
+.menu-button:hover {
+  background-color: gray;
 }

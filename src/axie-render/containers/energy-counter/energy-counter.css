@@ -1,0 +1,63 @@
+.container {
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: fit-content;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter-components {
+    text-align: center;
+}
+
+.options-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-container {
+    padding: 10px;
+}
+
+.minus-button {
+    color: white;
+    background: #e7706a;
+}
+
+.plus-button {
+    color: white;
+    background: #0cadc8;
+}
+
+.end-button {
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    background: #fcb101;
+}
+
+.reset-button {
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    background: #98549c;
+}
+
+.energy-container {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100px;
+}
+
+.energy-title {
+    width: 120px;
+}
+
+.shortcut-li {
+    list-style:none;
+}

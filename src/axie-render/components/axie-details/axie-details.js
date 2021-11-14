@@ -69,11 +69,14 @@ class AxieDetails extends React.Component {
               </span>
               {this.props.axie.parts.length > 0 && (
               <table>
+                <thead>
                 <tr>
                   <th>Name</th>
                   <th>Class</th>
                   <th>Type</th>
                 </tr>
+                </thead>
+                <tbody>
                 {this.props.axie.parts.map((part, index) => (
                   <tr key={index.toString()}>
                     <td>{part.name}</td>
@@ -81,6 +84,7 @@ class AxieDetails extends React.Component {
                     <td>{part.type}</td>
                   </tr>
                 ))}
+                </tbody>
               </table>
               )}
             </div>

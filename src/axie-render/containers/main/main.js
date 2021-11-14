@@ -35,10 +35,13 @@ class MainLayout extends React.Component {
             <AxieForm className="form"></AxieForm>
             <span className="example-title">Axie Ids Examples:</span>
             <table className="main-table">
+              <thead>
               <tr>
                 <th>Id</th>
                 <th>Class</th>
               </tr>
+              </thead>
+              <tbody>
               <tr>
                 <td>8773512</td>
                 <td>Bird</td>
@@ -67,6 +70,7 @@ class MainLayout extends React.Component {
                 <td>8435718</td>
                 <td>Terminator</td>
               </tr>
+              </tbody>
             </table>
           </div>
           <div className="column flex3">

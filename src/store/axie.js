@@ -9,6 +9,9 @@ export const axieSlice = createSlice({
     id: 0,
     loading: false,
     axie: null,
+    round: 1,
+    energy: 3,
+    cards: 6,
   },
   reducers: {
     setId: (state, action) => {
@@ -20,6 +23,32 @@ export const axieSlice = createSlice({
     fetchAxieSuccess: (state, action) => {
       state.loading = false;
       state.axie = action.payload;
+    },
+    incrementEnergy: (state, action) => {
+      state.energy += 1;
+    },
+    decrementEnergy: (state, action) => {
+      if (state.energy > 0) {
+        state.energy -= 1;
+      }
+    },
+    incrementCards: (state, action) => {
+      state.cards += 1;
+    },
+    decrementCards: (state, action) => {
+      if (state.cards > 0) {
+        state.cards -= 1;
+      }
+    },
+    nextRound: (state, action) => {
+      state.round += 1;
+      state.energy += 2;
+      state.cards += 3;
+    },
+    newGame: (state, action) => {
+      state.round = 1;
+      state.cards = 6;
+      state.energy = 3;
     },
   },
 });
@@ -42,6 +71,16 @@ export function loadAxie(id) {
 }
 
 // Action creators are generated for each case reducer function
-export const { setId, fetchAxie, fetchAxieSuccess } = axieSlice.actions;
+export const {
+  setId,
+  fetchAxie,
+  fetchAxieSuccess,
+  incrementEnergy,
+  decrementEnergy,
+  incrementCards,
+  decrementCards,
+  nextRound,
+  newGame,
+} = axieSlice.actions;
 
 export default axieSlice.reducer;
