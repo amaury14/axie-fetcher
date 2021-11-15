@@ -12,7 +12,7 @@ class About extends React.Component {
             <li className="shortcut-li">Redux for state management</li>
             <li className="shortcut-li">React Router for routes handling</li>
             <li className="shortcut-li">React Loader Spinner for the loading behavior on Axies load</li>
-            <li className="shortcut-li">Axios to fetch Axie detials</li>
+            <li className="shortcut-li">Axios to fetch Axie details</li>
             <li className="shortcut-li">React functional component</li>
             <li className="shortcut-li">React class component</li>
           </ul>
