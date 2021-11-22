@@ -1,5 +1,7 @@
 # Axie Fetcher.
 
+Online app link: https://axie-fetcher.vercel.app/
+
 ### Author: Amaury Chong Rodríguez
 
 ### Axie Fetcher: Using the id you can see the photo, stats and cards of the axie, also included an energy counter for battles.
@@ -12,3 +14,9 @@
 * Axios to fetch Axie details.
 * React functional component.
 * React class component.
+
+#### Start development app:
+Run `npm run start`.
+
+#### Build project:
+Run `npm run build`.
